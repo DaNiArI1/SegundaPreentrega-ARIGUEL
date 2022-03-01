@@ -6,16 +6,13 @@
             min-height: 90px;
             width: 100%;
             background-color: rgb(27, 11, 11);
-            display: flex;
         }
         header p{
-            float: left;
             width: 25%;
             font-size: 22px;
             text-transform: capitalize;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             color: #fff;
-            display: flex;
         }
         
         nav a{
@@ -32,7 +29,6 @@
             outline: 1px solid;
             outline-color: white(49, 138, 172, 0.4);
             transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
-            display: flex;
             
         }
         
@@ -89,15 +85,15 @@
             nav {
                 font-size: 10px;
                 padding: 0;
+                text-align: center;
             }
         
             nav ul {
                 margin: 0;
-                padding: 0;
+                padding: .10em;
             }
-        
             nav li {
-                display: flex;
+                padding: .60em;
             }
         
             nav a {
@@ -112,44 +108,47 @@
                 min-height: 90px;
                 width: 100%;
                 background-color: rgb(27, 11, 11);
-                display: flex;
+                margin-top: 0px;
+                padding: .60em;
+                flex-direction: column;
+                text-align: center;
             }
             header p{
-                float: left;
-                width: 25%;
                 font-size: 22px;
                 text-transform: capitalize;
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
                 color: #fff;
-                display: flex;
             }
             header nav{
-                float: right;
-                text-align: right;
                 word-spacing: 12px;
                 margin-right: 10px; 
-                display: flex;
             }
-            nav ul li{
-                list-style: none;
-                display: inline-block;
-
+            nav {
+                font-size: 10px;
+                padding: 0;
+                text-align: center;
             }
+            nav ul {
+                margin: 0;
+                padding: .10em;
+            }
+            nav li {
+                padding: .60em;
+            }
+        
+        
             nav a{
                 text-decoration: none;
                 font-size: 25px;
                 text-transform: capitalize;
-                word-spacing: 50px;
                 color: #fff !important;
                 font-weight: 500;
                 padding: 0.5em;
                 background: rgb(68, 30, 30);
-                position: relative;
                 border: 2px solid rgb(104, 41, 41);
                 outline: 1px solid;
                 outline-color: white(49, 138, 172, 0.4);
                 transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
-                display: flex;
                 
             }
         }
