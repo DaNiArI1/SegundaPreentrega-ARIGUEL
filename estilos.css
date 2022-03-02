@@ -619,6 +619,12 @@
             }
         }
 
+        .card-text:hover{
+            transform: scale(1.1) !important;
+            transition: all 1s !important;
+            filter: saturate(150%) !important;
+        }
+
         .magazine-section .my-5{
             height: 100%;
             background-color: rgb(104, 41, 41) !important;
