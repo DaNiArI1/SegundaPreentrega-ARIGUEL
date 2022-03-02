@@ -6,6 +6,7 @@
             min-height: 90px;
             width: 100%;
             background-color: rgb(27, 11, 11);
+            background-image: url(imagenes/wave-haikei.svg);
         }
         header p{
             width: 25%;
