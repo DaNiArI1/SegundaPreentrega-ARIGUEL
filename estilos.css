@@ -2,10 +2,20 @@
             scroll-behavior: smooth;
             background-color: black;
         }
+        :root{
+            --color0: rgb(27, 11, 11);
+            --color1: rgb(68, 21, 21);
+
+        }
+        *::selection{
+            color: white;
+            background-color: var(--color1);
+
+        }
         header{
             min-height: 90px;
             width: 100%;
-            background-color: rgb(27, 11, 11);
+            background-color: var(--color0);
             background-image: url(imagenes/wave-haikei.svg);
         }
         header p{
@@ -390,6 +400,7 @@
               width: 100%;
             }
           }
+
         .galeria{
             width: 100%;
             min-height: 600px;
